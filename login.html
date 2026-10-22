@@ -138,6 +138,29 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+
+/* Archive migration notice */
+.migration-notice {
+  margin: 12px 24px;
+  padding: 10px 14px;
+  border: 1px solid #dfe4f5;
+  border-radius: 8px;
+  background: #f5f6ff;
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.migration-notice a {
+  color: #667eea;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .migration-notice {
+    margin: 10px 16px;
+  }
+}
     </style>
 </head>
 <body>
@@ -146,6 +169,11 @@
             <img src="assets/logo2-removebg-preview.png" alt="Daily arXiv AI Enhanced Logo" class="logo-image">
             <span class="site-title">Daily arXiv AI Enhanced</span>
         </a>
+            <aside class="migration-notice" aria-label="Daily-Arxiv migration notice">
+                <strong>Daily-Arxiv has moved.</strong>
+                <a href="https://yuhanjin-ustc.github.io/daily-arxiv/">Open the bilingual site (EN / ZH)</a>.
+                This archive remains available; daily updates continue on the new site.
+            </aside>
         <h1>Access Verification</h1>
         <div class="subtitle">Please enter password to continue</div>
         <form id="loginForm" method="post">

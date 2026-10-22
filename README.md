@@ -1,5 +1,8 @@
 # daily-arXiv AI enhanced
 
+> **Moved to the bilingual Daily-Arxiv project:** [Website (EN / ZH)](https://yuhanjin-ustc.github.io/daily-arxiv/) · [Repository](https://github.com/yuhanjin-ustc/daily-arxiv).
+> Daily updates continue there. This repository and its historical pages remain available without automatic redirects.
+
 [![Tests](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
 
 Daily arXiv announcements with validated AI summaries and a static GitHub Pages reader. The English and Chinese repositories use the same implementation; only `tool.daily_arxiv.language` in `pyproject.toml` differs.
